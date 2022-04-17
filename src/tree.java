@@ -11,9 +11,9 @@ public class tree {
 
         binaryTrees.traverseInOrder(binaryTrees.root);
         System.out.println("\n");
-        binaryTrees.traversePreOrder(binaryTrees.root);
-        System.out.println("\n");
         binaryTrees.traversePostOrder(binaryTrees.root);
+        System.out.println("\n");
+        binaryTrees.traversePreOrder(binaryTrees.root);
         System.out.println("\n");
         binaryTrees.traverseLevelOrder();
         System.out.println("\n");
