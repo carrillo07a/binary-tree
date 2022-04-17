@@ -1,4 +1,4 @@
-public class tree {
+public class Tree {
     public static void main(String[] args) {
         BinaryTrees binaryTrees = new BinaryTrees();
         binaryTrees.add(6);
@@ -22,5 +22,6 @@ public class tree {
         binaryTrees.traversePostOrderWithoutRecursion();
         System.out.println("\n");
         binaryTrees.traversePreOrderWithoutRecursion();
+
     }
 }
